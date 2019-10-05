@@ -1,0 +1,9 @@
+version: '3'
+services:
+  d8karar-apache:
+      build:
+        context: ./dockerimages/php-apache
+      ports:
+        - 4444:80
+      volumes:
+        - ./data:/var/www/html

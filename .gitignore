@@ -1,0 +1,4 @@
+/data/vendor/*
+/data/src/db.sqlite
+/data/src/composer.lock
+.idea

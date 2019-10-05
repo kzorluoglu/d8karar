@@ -1,0 +1,23 @@
+{
+    "name": "d8devs/d8karar",
+    "description": "A Simple Meetings and Decision Management Tool",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^8.4"
+    },
+    "authors": [
+        {
+            "name": "Koray Zorluoglu",
+            "email": "koray@d8devs.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^2.12",
+        "doctrine/orm": "^2.6"
+    },
+    "autoload":{
+        "psr-4" : {
+            "D8devs\\D8Karar\\" : "src/"
+        }
+    }
+}
